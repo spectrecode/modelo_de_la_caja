@@ -1,24 +1,16 @@
-/** 
-Escribir el CSS necesario aqui
-*/
-*{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-div	{
-	border-top: 8px solid #9900FF;
-	border-bottom: 8px solid #9900ff;
-	border-right: 4px solid #9900ff;
-	border-left: 4px solid #9900ff;
+.padre	{
 	background-color: #F9CB9C;
-	padding: 5px 7px 10px 60px;
-	height: 80px;
+	border: 20px solid #9900FF;
+	border-right: 10px solid #9900FF;
+	border-left: 10px solid #9900FF;
+	padding: 40px 20px 70px 100px;
+	margin: 120px 60px 30.5px 60px;	
 }
 
-p	{
-	margin-top: 10px;
-	border: #548230 1px dashed;
-	text-align: center;
+.hijo	{
 	background-color: white;
+	text-align: center;
+	border: 2px dashed #688B3C;
+	height: 50px;
+	line-height: 50px;
 }
